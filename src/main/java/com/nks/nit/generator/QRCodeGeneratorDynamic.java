@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 public class QRCodeGeneratorDynamic
 {
-	public static void main(String[] args) throws WriterException, IOException
+    public static void main(String[] args) throws WriterException, IOException
     {
         Scanner inp=new Scanner(System.in);
         String url=inp.nextLine();
